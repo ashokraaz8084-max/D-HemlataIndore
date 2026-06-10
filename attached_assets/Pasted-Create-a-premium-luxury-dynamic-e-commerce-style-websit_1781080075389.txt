@@ -1,0 +1,276 @@
+Create a premium luxury dynamic e-commerce-style website for:
+
+Business Name: D Himmatlal and Company
+Phone: 9827738838
+Email: [himmatlal1959@gmail.com](mailto:himmatlal1959@gmail.com)
+
+About Business:
+For over 65 years, Himmatlal and Company has been a cornerstone of quality home furnishings, carried through three generations. Founded in 1959 by late HIMMATLAL VADALIA, later led by SHARAD HIMMATLAL VADALIA, and now guided by the third generation. The brand combines heritage, trust, and premium quality.
+
+Products:
+
+* Bedsheets
+* Dohars
+* Curtains
+* Sofa Fabrics
+* Blankets
+* Comforters
+* Bedcovers
+* Mattresses
+* Pillows and Cushions
+* And more home furnishing products
+
+Location:
+New location in Vijay Nagar.
+
+Reference Websites:
+https://loopsbylj.com/
+https://www.obeetee.in/
+
+Important:
+Do not copy exact code, logo, images, or copyrighted assets from reference websites. Use them only as design inspiration. Create an original website with a similar premium luxury feel, clean layout, elegant product presentation, smooth animations, and high-end home furnishing brand experience.
+
+Website Style:
+
+* Premium luxury home furnishing brand
+* Elegant, minimal, clean, modern design
+* Warm heritage feel
+* Large hero section
+* High-quality product category sections
+* Smooth scroll animations
+* Mobile responsive
+* Fast loading
+* SEO friendly
+* Premium typography
+* Luxury color palette: cream, beige, deep brown, gold accents, off-white
+
+Pages Required:
+
+1. Home
+2. About Us
+3. Products / Collections
+4. Product Detail Pages
+5. Gallery
+6. Blogs
+7. Testimonials
+8. Contact Us
+9. Admin Login
+10. Admin Dashboard
+
+Home Page Sections:
+
+* Luxury hero section with brand story and CTA buttons
+* “65+ Years of Trust” heritage section
+* Featured product categories
+* Best-selling collections
+* Why Choose Us
+* Founder / Legacy story
+* Gallery preview
+* Testimonials
+* Contact CTA
+* WhatsApp CTA
+* Footer
+
+Product Categories:
+Create dynamic categories for:
+
+* Bedsheets
+* Dohars
+* Curtains
+* Sofa Fabrics
+* Blankets
+* Comforters
+* Bedcovers
+* Mattresses
+* Pillows and Cushions
+
+Each product/category should support:
+
+* Name
+* Slug
+* Category
+* Short description
+* Full description
+* Price or “Contact for Price”
+* Product image
+* Gallery images
+* Fabric/material
+* Size
+* Color
+* Stock status
+* Featured product option
+* WhatsApp inquiry button
+
+Admin Panel Requirements:
+Create a fully working admin panel where admin can add, edit, delete, and update all website content without touching code.
+
+Admin should manage:
+
+1. Website settings
+
+   * Business name
+   * Logo text/image
+   * Phone
+   * Email
+   * Address
+   * WhatsApp number
+   * Social media links
+   * Footer text
+
+2. Hero section
+
+   * Heading
+   * Subheading
+   * Button text
+   * Button links
+   * Hero image/background
+
+3. About section
+
+   * Business story
+   * Founder name
+   * Legacy text
+   * Years of experience
+   * About images
+
+4. Product categories
+
+   * Add/edit/delete categories
+   * Category name
+   * Slug
+   * Description
+   * Image
+   * Display order
+   * Active/inactive status
+
+5. Products
+
+   * Add/edit/delete products
+   * Product name
+   * Category
+   * Description
+   * Images
+   * Price/contact price
+   * Fabric/material
+   * Size
+   * Color
+   * Featured status
+   * Active/inactive status
+
+6. Gallery
+
+   * Add/delete gallery images
+   * Image title
+   * Category
+   * Display order
+
+7. Blogs
+
+   * Add/edit/delete blogs
+   * Title
+   * Slug
+   * Content
+   * Image
+   * Category
+   * Published date
+   * Active/inactive status
+
+8. Testimonials
+
+   * Add/edit/delete customer reviews
+   * Customer name
+   * Review
+   * Rating
+   * Image
+   * Active/inactive status
+
+9. Contact details
+
+   * Address
+   * Phone
+   * Email
+   * WhatsApp number
+   * Google Map embed/link
+   * Business hours
+
+10. Leads / inquiries
+
+* Store contact form submissions
+* Store product inquiry submissions
+* Admin can view inquiries in dashboard
+
+Authentication:
+
+* Use Supabase Authentication for admin login.
+* Create admin login page at /admin.
+* Only logged-in admin can access dashboard.
+* Add logout option.
+* Show logged-in admin email in sidebar.
+
+Database:
+Use Supabase as database. Create all required tables automatically using SQL/migrations:
+
+* site_settings
+* hero_sections
+* about_sections
+* categories
+* products
+* gallery
+* blogs
+* testimonials
+* contact_details
+* inquiries
+
+Important:
+All admin save buttons must work.
+No static/read-only content for editable sections.
+Products and categories must be fully dynamic from Supabase.
+Admin must be able to add a new product/category and it should instantly appear on the live website.
+Admin must be able to edit/delete existing content.
+Do not leave placeholder admin features incomplete.
+
+Also seed sample data for:
+
+* Website settings
+* Hero section
+* About story
+* All product categories
+* 8 sample products
+* 4 testimonials
+* 3 blogs
+* Gallery images placeholders
+
+Technical Requirements:
+
+* React + Vite
+* Tailwind CSS
+* Supabase database and auth
+* Clean component structure
+* Responsive design
+* SEO meta tags
+* Loading states
+* Error handling
+* Toast notifications
+* Form validation
+* Image URL support
+* WhatsApp inquiry integration
+* Google Map section
+* Modern admin sidebar dashboard
+* Professional UI/UX
+
+Final Testing Required:
+After building, test:
+
+1. Admin login page opens at /admin
+2. Admin can login using Supabase auth
+3. Admin can update website settings
+4. Admin can add/edit/delete product category
+5. Admin can add/edit/delete product
+6. Admin can add/edit/delete blog
+7. Admin can add/edit/delete testimonial
+8. Admin can update contact details
+9. Changes reflect on live website
+10. No missing Supabase table errors
+11. No read-only treatments/products section
+
+Deliver a complete production-ready website.
